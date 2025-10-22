@@ -1,0 +1,22 @@
+[project]
+name = "vectordb"
+version = "0.1.0"
+description = "Vector Database Comparison 2025 October Edition"
+authors = { name = "Wen Yang", email = "wen.notebook@gmail.com"}
+requires-python = ">=3.13"
+dependencies = [
+    "sentence-transformers>=3.0.0",
+    "chromadb>=0.5.0",
+    "qdrant-client>=1.11.0",
+    "weaviate-client>=4.9.0",
+    "pymilvus>=2.4.0",
+    "streamlit>=1.40.0",
+    "pandas>=2.2.0",
+    "numpy>=2.0.0",
+    "python-dotenv>=1.0.0",
+    "jupyter>=1.1.0",
+    "ipykernel>=6.29.0",
+    "matplotlib>=3.9.0",
+    "plotly>=5.24.0",
+    "pinecone>=7.3.0",
+]

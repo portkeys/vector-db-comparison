@@ -1,6 +1,6 @@
 # Vector Database Comparison 2025
 
-**Production-ready comparison of 5 vector databases with real benchmarks, interactive web app, and hands-on Jupyter notebooks.**
+**Chroma, Pinecone, Weaviate, Milvus and Qdrant**
 
 🌐 **[Live Demo](https://vector-db-comparison.vercel.app)** | 📓 **[Jupyter Notebooks](./notebooks/)**
 
@@ -18,7 +18,7 @@ A live, interactive dashboard comparing 5 vector databases:
 **➡️ [View Live App](https://vector-db-comparison.vercel.app)**
 
 ### 📓 Implementation Notebooks
-Hands-on Jupyter notebooks with real code for each database:
+Hands-on Jupyter notebooks with code implementation for each database:
 - Step-by-step setup and implementation
 - Upsert operations, semantic search, metadata filtering
 - Performance measurements and benchmarking
@@ -196,7 +196,7 @@ vector-db-comparison/
 
 ---
 
-## 📊 Test Configuration
+## 📊 Configuration
 
 - **Dataset:** 100 articles (outdoor/travel content)
 - **Embedding Model:** sentence-transformers/all-MiniLM-L6-v2 (384 dimensions)

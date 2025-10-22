@@ -2,7 +2,7 @@
 
 **Chroma, Pinecone, Weaviate, Milvus and Qdrant**
 
-🌐 **[Live Demo](https://vector-db-comparison.vercel.app)** | 📓 **[Jupyter Notebooks](./notebooks/)**
+🌐 **[My Comparison](https://vector-db-comparison.vercel.app)** | 📓 **[Jupyter Notebooks](./notebooks/)**
 
 ---
 

@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Comprehensive comparison of vector databases with real-world benchmarks and implementation guides",
   "private": true,
-  "workspaces": [
-    "frontend"
-  ],
   "scripts": {
     "dev": "cd frontend && npm run dev",
     "build": "cd frontend && npm install && npm run build",
@@ -25,5 +22,8 @@
     "comparison"
   ],
   "author": "Vector DB Comparison Team",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^4.0.0"
+  }
 }

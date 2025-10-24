@@ -62,6 +62,14 @@ npm run dev
 
 Visit `http://localhost:3000` to see the app.
 
+**Note:** The frontend is now organized in the `frontend/` directory. You can also run it directly:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
 ---
 
 ## 📓 Run Notebooks
@@ -171,11 +179,18 @@ When migrating 1M vectors from Pinecone pod-based to serverless, we discovered y
 
 ```
 vector-db-comparison/
-├── 🌐 Web App (React/TypeScript)
-│   ├── src/                            # React components
-│   ├── vector-db-comparison-2025.tsx   # Main comparison component
-│   ├── package.json                    # Dependencies
-│   └── vite.config.ts                  # Build configuration
+├── 🌐 Frontend (React/TypeScript)
+│   └── frontend/
+│       ├── src/
+│       │   ├── components/
+│       │   │   └── VectorDBComparison.tsx  # Main comparison component
+│       │   ├── main.tsx                    # React entry point
+│       │   └── index.css                   # Tailwind styles
+│       ├── index.html                      # HTML template
+│       ├── package.json                    # Frontend dependencies
+│       ├── vite.config.ts                  # Build configuration
+│       ├── tailwind.config.js              # Tailwind config
+│       └── tsconfig.json                   # TypeScript config
 │
 ├── 📓 Jupyter Notebooks
 │   └── notebooks/
@@ -185,13 +200,24 @@ vector-db-comparison/
 │       ├── 04_qdrant.ipynb             # Qdrant testing
 │       └── 05_pinecone.ipynb           # Pinecone testing
 │
+├── 📚 Documentation
+│   └── docs/
+│       ├── chroma_setup.md             # Chroma setup guide
+│       ├── weaviate_setup.md           # Weaviate setup guide
+│       ├── milvus_setup.md             # Milvus setup guide
+│       ├── qdrant_setup.md             # Qdrant setup guide
+│       └── pinecone_setup.md           # Pinecone setup guide
+│
 ├── 🛠️ Python Utilities
 │   ├── utils/                          # Benchmark helpers
 │   └── pyproject.toml                  # Python dependencies
 │
-└── 📊 Data
-    ├── sample_articles.json            # 100 test articles
-    └── .env.example                    # Environment template
+├── 📊 Data
+│   └── data/
+│       └── sample_articles.json        # 100 test articles
+│
+├── package.json                       # Root package.json (workspace)
+└── README.md                          # This file
 ```
 
 ---

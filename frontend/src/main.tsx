@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import VectorDBComparison from '../vector-db-comparison-2025.tsx'
+import VectorDBComparison from './components/VectorDBComparison'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
